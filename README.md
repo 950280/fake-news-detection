@@ -41,6 +41,24 @@ To build a simple AI-based web application that can classify news headlines as *
 
 ## 🚀 How to Run
 
+---
+
+## ❗ Important Note for First-Time Users
+
+When you download this project as a ZIP from GitHub and extract it, GitHub may add an extra folder layer like:
+
+ "FakeNewsDetection-main/FakeNewsDetection-main/"
+
+# To avoid file errors like `FileNotFoundError`, make sure you:
+
+1. Open the **inner folder** in your code editor (the one containing `app.py`, `Fake.csv`, etc.)
+2. Run the commands **only from that folder** where all files are directly visible.
+
+Or simply:
+- Move all files from the inner folder one level up and delete the duplicate folder.
+
+
+
 ### 1. Install Dependencies
 
 pip install -r requirements.txt
