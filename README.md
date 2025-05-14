@@ -24,29 +24,43 @@ To build a simple AI-based web application that can classify news headlines as *
 
 ## 📁 Dataset Used
 
-- `Fake.csv` - contains fake news data
-- `True.csv` - contains real news data
-- Source: Public news datasets used for text classification tasks
+- `Fake.csv` - contains fake news data  
+- `True.csv` - contains real news data  
+- Source: Public news datasets used for text classification tasks (from Kaggle)
 
 
 
 ## ⚙️ How it Works
 
 1. Load and clean the news data using NLP techniques.
-2. Convert text into numeric features using **TF-IDF**.
+2. Convert text into numeric features using **TF-IDF Vectorization**.
 3. Train a **PassiveAggressiveClassifier** model.
-4. Build a Streamlit web app for users to test real/fake headlines.
+4. Build a **Streamlit** web app for users to test real/fake headlines interactively.
 
 
 
 ## 🚀 How to Run
 
+### 1. Install Dependencies
+
+pip install -r requirements.txt
+
+### 2. Run the Streamlit App
+
 streamlit run app.py
 
 
+### ❓ Handling Misclassification
+# Why did the model misclassify a headline?
+The model is trained on a limited dataset (mainly political news). It may misclassify headlines from topics it hasn’t seen, like science or space.
+📌 To improve accuracy, retraining with a broader and more diverse dataset is recommended.
 
-### 1. Install Dependencies
+### 🌐 GitHub Repository
 
-```bash
-pip install -r requirements.txt
+
+
+👩‍💻 Author
+Sindhuja Ganimukkula
+AI Internship 2025
+Edunet Foundation x Microsoft
 
