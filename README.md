@@ -56,7 +56,7 @@ The model is trained on a limited dataset (mainly political news). It may miscla
 📌 To improve accuracy, retraining with a broader and more diverse dataset is recommended.
 
 ### 🌐 GitHub Repository
-
+     https://github.com/950280/fake-news-detection.git
 
 
 👩‍💻 Author
